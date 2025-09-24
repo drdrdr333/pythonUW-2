@@ -1,0 +1,20 @@
+ This example is only using around 1000 records for baseline... 
+
+ chunk size 10 accounts 
+
+ results: 149.8468126
+ chunk size 10 status 
+
+ results: 149.86600649999997
+ chunk size 30 accounts 
+
+ results: 45.07590700000003
+ chunk size 30 status 
+
+ results: 44.10419630000001
+ chunk size 200 accounts 
+
+ results: 30.181286199999988
+ chunk size 200 status 
+
+ results: 30.011609999999962

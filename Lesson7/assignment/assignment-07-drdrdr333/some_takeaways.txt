@@ -1,0 +1,7 @@
+Increasing the chunk size, at least as far as I went up to, did speed up performance - seen specifically with the timing of the function executions.
+
+I may not fully understand how to tap into all of the features of improving performance, however, as this was a challenging assignment for me.
+
+I feel as if I have not allowed sufficient time for the content to digest quite yet!!
+
+What books would you recommend for a deeper understanding in addition to this content?
