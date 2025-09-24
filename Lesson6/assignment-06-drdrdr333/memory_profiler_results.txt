@@ -1,0 +1,160 @@
+Filename: F:\Washington\Class2\Lesson6\assignment-06-drdrdr333\memory_profiling.py
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+    52     23.3 MiB     23.3 MiB           1   @profile(stream=_f)
+    53                                         def lite_load_users():
+    54     23.4 MiB      0.1 MiB           1       a = main.load_users('test_accounts.csv')
+    55     23.4 MiB      0.0 MiB           1       return a
+
+
+Filename: F:\Washington\Class2\Lesson6\assignment-06-drdrdr333\memory_profiling.py
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+    57     23.4 MiB     23.4 MiB           1   @profile(stream=_f)
+    58                                         def lite_load_status():
+    59     23.4 MiB      0.0 MiB           1       b = main.load_status_updates('test_status.csv')
+    60     23.4 MiB      0.0 MiB           1       return b
+
+
+Filename: F:\Washington\Class2\Lesson6\assignment-06-drdrdr333\memory_profiling.py
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+    62     23.4 MiB     23.4 MiB           1   @profile(stream=_f)
+    63                                         def lite_update_user():
+    64     23.4 MiB      0.0 MiB           1       b = main.update_user('Danit.Berni57', 'test@test.com', 'test', 'test')
+    65     23.4 MiB      0.0 MiB           1       return b
+
+
+Filename: F:\Washington\Class2\Lesson6\assignment-06-drdrdr333\memory_profiling.py
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+    67     23.4 MiB     23.4 MiB           1   @profile(stream=_f)
+    68                                         def lite_search_user():
+    69     23.4 MiB      0.0 MiB           1       b = main.search_user('Danit.Berni57')
+    70     23.4 MiB      0.0 MiB           1       return b
+
+
+Filename: F:\Washington\Class2\Lesson6\assignment-06-drdrdr333\memory_profiling.py
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+    72     23.4 MiB     23.4 MiB           1   @profile(stream=_f)
+    73                                         def lite_delete_user():
+    74     23.5 MiB      0.1 MiB           1       b = main.delete_user('Danit.Berni57')
+    75     23.5 MiB      0.0 MiB           1       return b
+
+
+Filename: F:\Washington\Class2\Lesson6\assignment-06-drdrdr333\memory_profiling.py
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+    77     23.5 MiB     23.5 MiB           1   @profile(stream=_f)
+    78                                         def lite_update_status():
+    79     23.5 MiB      0.0 MiB           1       b = main.update_status('QuintillaWitty', 'Quintilla.Witty8', 'new new text')
+    80     23.5 MiB      0.0 MiB           1       return b
+
+
+Filename: F:\Washington\Class2\Lesson6\assignment-06-drdrdr333\memory_profiling.py
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+    87     23.5 MiB     23.5 MiB           1   @profile(stream=_f)
+    88                                         def lite_delete_status():
+    89     23.5 MiB      0.0 MiB           1       b = main.delete_status('QuintillaWitty')
+    90     23.5 MiB      0.0 MiB           1       return b
+
+
+Filename: F:\Washington\Class2\Lesson6\assignment-06-drdrdr333\memory_profiling.py
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+    87     23.5 MiB     23.5 MiB           1   @profile(stream=_f)
+    88                                         def lite_delete_status():
+    89     23.5 MiB      0.0 MiB           1       b = main.delete_status('QuintillaWitty')
+    90     23.5 MiB      0.0 MiB           1       return b
+
+
+Filename: F:\Washington\Class2\Lesson6\assignment-06-drdrdr333\memory_profiling.py
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+    11     27.3 MiB     27.3 MiB           1   @profile(stream=_f)
+    12                                         def mongo_load_users():
+    13     30.4 MiB      3.1 MiB           1       a = main.load_users('test_accounts.csv')
+    14     30.4 MiB      0.0 MiB           1       return a
+
+
+Filename: F:\Washington\Class2\Lesson6\assignment-06-drdrdr333\memory_profiling.py
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+    16     30.4 MiB     30.4 MiB           1   @profile(stream=_f)
+    17                                         def mongo_load_status():
+    18     32.5 MiB      2.1 MiB           1       b = main.load_status_updates('test_status.csv')
+    19     32.5 MiB      0.0 MiB           1       return b
+
+
+Filename: F:\Washington\Class2\Lesson6\assignment-06-drdrdr333\memory_profiling.py
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+    21     32.5 MiB     32.5 MiB           1   @profile(stream=_f)
+    22                                         def mongo_update_user():
+    23     32.6 MiB      0.2 MiB           1       b = main.update_user('Danit.Berni57', 'test@test.com', 'test', 'test')
+    24     32.6 MiB      0.0 MiB           1       return b
+
+
+Filename: F:\Washington\Class2\Lesson6\assignment-06-drdrdr333\memory_profiling.py
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+    26     32.6 MiB     32.6 MiB           1   @profile(stream=_f)
+    27                                         def mongo_search_user():
+    28     32.9 MiB      0.2 MiB           1       b = main.search_user('Danit.Berni57')
+    29     32.9 MiB      0.0 MiB           1       return b
+
+
+Filename: F:\Washington\Class2\Lesson6\assignment-06-drdrdr333\memory_profiling.py
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+    31     32.9 MiB     32.9 MiB           1   @profile(stream=_f)
+    32                                         def mongo_delete_user():
+    33     32.9 MiB      0.0 MiB           1       b = main.delete_user('Danit.Berni57')
+    34     32.9 MiB      0.0 MiB           1       return b
+
+
+Filename: F:\Washington\Class2\Lesson6\assignment-06-drdrdr333\memory_profiling.py
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+    36     32.9 MiB     32.9 MiB           1   @profile(stream=_f)
+    37                                         def mongo_update_status():
+    38     33.0 MiB      0.2 MiB           1       b = main.update_status('QuintillaWitty', 'Quintilla.Witty8', 'new new text')
+    39     33.0 MiB      0.0 MiB           1       return b
+
+
+Filename: F:\Washington\Class2\Lesson6\assignment-06-drdrdr333\memory_profiling.py
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+    46     33.0 MiB     33.0 MiB           1   @profile(stream=_f)
+    47                                         def mongo_delete_status():
+    48     33.2 MiB      0.2 MiB           1       b = main.delete_status('QuintillaWitty')
+    49     33.2 MiB      0.0 MiB           1       return b
+
+
+Filename: F:\Washington\Class2\Lesson6\assignment-06-drdrdr333\memory_profiling.py
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+    46     33.2 MiB     33.2 MiB           1   @profile(stream=_f)
+    47                                         def mongo_delete_status():
+    48     33.5 MiB      0.3 MiB           1       b = main.delete_status('QuintillaWitty')
+    49     33.5 MiB      0.0 MiB           1       return b
+
+

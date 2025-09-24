@@ -1,0 +1,18 @@
+- mongo uses a lot more function calls in the execution paths, giving the edge to sql lite as far as calls - one may think because there are less calls, sql lite has the slight edge in speed, but not necessarily
+
+- they are both relatively equivalent as far as memory profiling goes, with an edge to sql lite
+
+- timeit shows that they are relatively equivalent - I did not use a large enough sample size because my tests were not automated
+
+Opinions:
+
+- If I had to guess, I would think that because mongo has drivers specifcally with methods for the calls, that it would be quicker rendering and quicker for your time from dev to production.
+
+- Sql lite is more intuitive if you are familiar with sql, because there is less cognitive ability spend on understanding how to query the items via peewee, its basically like sql direct queries with . notation for the query
+
+- I personally thought mongo was easier, because of the time to develop - their documentation is very straightforward as well
+
+- Setup wise, I thought peewee was more well defined, as far as exposing you to the models and how the data will eventually go from start to finish; but with this added transparence comes the speed of development trade-off. I appreciate the more well-defined nature of a sql lite peewee combination.
+
+- There are pros and cons to both and I think understanding the problem would ultimately drive the solution. For instance, if you were cramped for speed of product - I would suggest mongo; if you want more sql like interaction and are familiar with relational db's then peewee sql lite is the way to go, as an aside, I feel the code is much more transparent and cleaner with sql lite.
+

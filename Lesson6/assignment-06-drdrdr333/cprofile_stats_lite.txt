@@ -1,0 +1,417 @@
+Using SQL DB Lite
+
+ *****Load users*****"
+10050 function calls (9553 primitive calls) in 1.370 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      135    0.000    0.000    0.000    0.000 <string>:1(<lambda>)
+        1    0.000    0.000    1.370    1.370 <string>:1(<module>)
+       27    0.000    0.000    0.000    0.000 __init__.py:1424(debug)
+       27    0.000    0.000    0.000    0.000 __init__.py:1689(isEnabledFor)
+        1    0.000    0.000    0.000    0.000 _bootlocale.py:11(getpreferredencoding)
+        2    0.000    0.000    0.000    0.000 _collections_abc.py:409(__subclasshook__)
+       27    0.000    0.000    0.000    0.000 abc.py:117(__instancecheck__)
+      2/1    0.000    0.000    0.000    0.000 abc.py:121(__subclasscheck__)
+        1    0.000    0.000    0.000    0.000 codecs.py:260(__init__)
+       45    0.000    0.000    0.000    0.000 contextlib.py:114(__enter__)
+       45    0.000    0.000    0.000    0.000 contextlib.py:123(__exit__)
+       45    0.000    0.000    0.000    0.000 contextlib.py:261(helper)
+       45    0.000    0.000    0.000    0.000 contextlib.py:86(__init__)
+        3    0.000    0.000    0.000    0.000 cp1252.py:22(decode)
+       10    0.000    0.000    0.000    0.000 csv.py:107(__next__)
+        1    0.000    0.000    0.000    0.000 csv.py:81(__init__)
+        1    0.000    0.000    0.000    0.000 csv.py:90(__iter__)
+       19    0.000    0.000    0.000    0.000 csv.py:93(fieldnames)
+       99    0.000    0.000    0.000    0.000 inspect.py:73(isclass)
+        1    0.000    0.000    0.000    0.000 main.py:29(get_file)
+        1    0.000    0.000    1.370    1.370 main.py:66(load_users)
+        1    0.000    0.000    0.000    0.000 os.py:282(walk)
+        2    0.000    0.000    0.000    0.000 os.py:344(_walk)
+       27    0.000    0.000    0.000    0.000 peewee.py:1007(__sql__)
+        9    0.000    0.000    0.000    0.000 peewee.py:1201(__eq__)
+       72    0.000    0.000    0.000    0.000 peewee.py:1286(__init__)
+       72    0.000    0.000    0.001    0.000 peewee.py:1299(__sql__)
+       72    0.000    0.000    0.000    0.000 peewee.py:1419(__init__)
+       72    0.000    0.000    0.000    0.000 peewee.py:1431(__sql__)
+        9    0.000    0.000    0.000    0.000 peewee.py:1505(__init__)
+        9    0.000    0.000    0.001    0.000 peewee.py:1511(__sql__)
+       99    0.000    0.000    0.000    0.000 peewee.py:1553(__init__)
+       99    0.000    0.000    0.000    0.000 peewee.py:1554(<listcomp>)
+       99    0.000    0.000    0.000    0.000 peewee.py:1565(__sql__)
+       36    0.000    0.000    0.000    0.000 peewee.py:1570(__init__)
+       36    0.000    0.000    0.000    0.000 peewee.py:1574(__sql__)
+       63    0.000    0.000    0.000    0.000 peewee.py:1819(__init__)
+    63/27    0.000    0.000    0.002    0.000 peewee.py:1830(__sql__)
+       18    0.000    0.000    0.000    0.000 peewee.py:1842(CommaNodeList)
+       18    0.000    0.000    0.000    0.000 peewee.py:1846(EnclosedNodeList)
+       18    0.000    0.000    0.226    0.013 peewee.py:1966(inner)
+       18    0.000    0.000    0.000    0.000 peewee.py:1980(__init__)
+        9    0.000    0.000    0.000    0.000 peewee.py:1991(clone)
+       18    0.000    0.000    0.226    0.013 peewee.py:2041(execute)
+       18    0.000    0.000    0.000    0.000 peewee.py:2101(__init__)
+        9    0.000    0.000    0.000    0.000 peewee.py:2115(where)
+        9    0.000    0.000    0.000    0.000 peewee.py:2150(_apply_ordering)
+       18    0.000    0.000    0.000    0.000 peewee.py:2163(__sql__)
+       27    0.000    0.000    0.000    0.000 peewee.py:249(__getattr__)
+       18    0.000    0.000    0.000    0.000 peewee.py:2536(__init__)
+       18    0.000    0.000    0.000    0.000 peewee.py:2551(apply_returning)
+       18    0.000    0.000    0.226    0.013 peewee.py:2557(_execute)
+        9    0.000    0.000    0.000    0.000 peewee.py:2570(handle_result)
+       18    0.000    0.000    0.000    0.000 peewee.py:2578(__sql__)
+        9    0.000    0.000    0.000    0.000 peewee.py:2588(__init__)
+        9    0.000    0.000    0.002    0.000 peewee.py:2597(__sql__)
+        9    0.000    0.000    0.000    0.000 peewee.py:2643(__init__)
+        9    0.000    0.000    0.002    0.000 peewee.py:2672(_simple_insert)
+        9    0.000    0.000    0.002    0.000 peewee.py:2685(_generate_insert)
+       36    0.000    0.000    0.000    0.000 peewee.py:2718(<lambda>)
+        9    0.000    0.000    0.000    0.000 peewee.py:2751(<listcomp>)
+        9    0.000    0.000    0.002    0.000 peewee.py:2810(__sql__)
+        9    0.000    0.000    0.223    0.025 peewee.py:2843(_execute)
+        9    0.000    0.000    0.000    0.000 peewee.py:2852(handle_result)
+       54    0.000    0.000    0.000    0.000 peewee.py:3009(__enter__)
+       54    0.000    0.000    0.000    0.000 peewee.py:3010(__exit__)
+       18    0.000    0.000    0.000    0.000 peewee.py:3058(reset)
+        9    0.000    0.000    0.000    0.000 peewee.py:3064(set_connection)
+        9    0.000    0.000    0.009    0.001 peewee.py:3181(connect)
+        9    0.000    0.000    0.000    0.000 peewee.py:3199(_initialize_connection)
+        9    0.000    0.000    0.127    0.014 peewee.py:3205(close)
+        9    0.000    0.000    0.127    0.014 peewee.py:3222(_close)
+       27    0.000    0.000    0.000    0.000 peewee.py:3225(is_closed)
+       27    0.000    0.000    0.000    0.000 peewee.py:3236(cursor)
+       27    0.000    0.000    0.221    0.008 peewee.py:3246(execute_sql)
+       18    0.000    0.000    0.226    0.013 peewee.py:3255(execute)
+       18    0.000    0.000    0.000    0.000 peewee.py:3262(get_context_options)
+       18    0.000    0.000    0.000    0.000 peewee.py:3278(get_sql_context)
+        9    0.000    0.000    0.000    0.000 peewee.py:3366(in_transaction)
+        9    0.000    0.000    0.000    0.000 peewee.py:3369(push_transaction)
+        9    0.000    0.000    0.000    0.000 peewee.py:3372(pop_transaction)
+       18    0.000    0.000    0.000    0.000 peewee.py:3375(transaction_depth)
+        9    0.000    0.000    0.000    0.000 peewee.py:3388(transaction)
+        9    0.000    0.000    0.009    0.001 peewee.py:3534(_connect)
+        9    0.000    0.000    0.000    0.000 peewee.py:3546(_add_conn_hooks)
+        9    0.000    0.000    0.000    0.000 peewee.py:3618(_load_aggregates)
+        9    0.000    0.000    0.000    0.000 peewee.py:3622(_load_collations)
+        9    0.000    0.000    0.000    0.000 peewee.py:3626(_load_functions)
+        9    0.000    0.000    0.000    0.000 peewee.py:3631(_load_window_functions)
+        9    0.000    0.000    0.000    0.000 peewee.py:3755(last_insert_id)
+        9    0.000    0.000    0.000    0.000 peewee.py:3765(rows_affected)
+        9    0.000    0.000    0.000    0.000 peewee.py:3771(begin)
+        9    0.000    0.000    1.005    0.112 peewee.py:3775(commit)
+       99    0.000    0.000    0.000    0.000 peewee.py:385(quote)
+       99    0.000    0.000    0.000    0.000 peewee.py:390(<lambda>)
+        9    0.000    0.000    0.000    0.000 peewee.py:4398(__init__)
+        9    0.000    0.000    0.000    0.000 peewee.py:4410(_begin)
+        9    0.000    0.000    1.005    0.112 peewee.py:4414(commit)
+        9    0.000    0.000    0.000    0.000 peewee.py:4424(__enter__)
+        9    0.000    0.000    1.005    0.112 peewee.py:4430(__exit__)
+       27    0.000    0.000    0.000    0.000 peewee.py:4629(__get__)
+       36    0.000    0.000    0.000    0.000 peewee.py:4634(__set__)
+      207    0.000    0.000    0.000    0.000 peewee.py:4748(__hash__)
+       72    0.000    0.000    0.000    0.000 peewee.py:4765(column)
+       72    0.000    0.000    0.000    0.000 peewee.py:4772(db_value)
+       27    0.000    0.000    0.000    0.000 peewee.py:4778(to_value)
+       63    0.000    0.000    0.000    0.000 peewee.py:4781(get_sort_key)
+       72    0.000    0.000    0.001    0.000 peewee.py:4784(__sql__)
+       72    0.000    0.000    0.000    0.000 peewee.py:4924(adapt)
+       18    0.000    0.000    0.000    0.000 peewee.py:496(__init__)
+       36    0.000    0.000    0.000    0.000 peewee.py:503(mapping)
+        9    0.000    0.000    0.000    0.000 peewee.py:507(add)
+        9    0.000    0.000    0.000    0.000 peewee.py:513(get)
+        9    0.000    0.000    0.000    0.000 peewee.py:520(__getitem__)
+       18    0.000    0.000    0.000    0.000 peewee.py:523(__setitem__)
+       18    0.000    0.000    0.000    0.000 peewee.py:526(push)
+      135    0.000    0.000    0.000    0.000 peewee.py:539(__new__)
+      117    0.000    0.000    0.000    0.000 peewee.py:542(__call__)
+      279    0.000    0.000    0.000    0.000 peewee.py:556(__getattr__)
+       90    0.000    0.000    0.000    0.000 peewee.py:561(inner)
+       18    0.000    0.000    0.000    0.000 peewee.py:571(__init__)
+       27    0.000    0.000    0.000    0.000 peewee.py:581(column_sort_key)
+      225    0.000    0.000    0.000    0.000 peewee.py:584(scope)
+      234    0.000    0.000    0.000    0.000 peewee.py:588(parentheses)
+      117    0.000    0.000    0.001    0.000 peewee.py:596(__call__)
+      117    0.000    0.000    0.000    0.000 peewee.py:610(__enter__)
+      117    0.000    0.000    0.000    0.000 peewee.py:615(__exit__)
+      108    0.000    0.000    0.000    0.000 peewee.py:6183(table)
+   477/18    0.000    0.000    0.004    0.000 peewee.py:626(sql)
+        9    0.000    0.000    0.000    0.000 peewee.py:6308(get_default_dict)
+      459    0.000    0.000    0.000    0.000 peewee.py:634(literal)
+       72    0.000    0.000    0.000    0.000 peewee.py:638(value)
+        9    0.000    0.000    0.000    0.000 peewee.py:6525(__init__)
+       18    0.000    0.000    0.000    0.000 peewee.py:6554(_normalize_data)
+        9    0.000    0.000    0.000    0.000 peewee.py:6581(update)
+        9    0.000    0.000    0.000    0.000 peewee.py:6585(insert)
+        9    0.000    0.000    0.224    0.025 peewee.py:6617(create)
+       18    0.000    0.000    0.000    0.000 peewee.py:671(query)
+       27    0.000    0.000    0.000    0.000 peewee.py:6762(get_id)
+        9    0.000    0.000    0.000    0.000 peewee.py:6776(_pk_expr)
+       18    0.000    0.000    0.000    0.000 peewee.py:6788(_populate_unsaved_relations)
+       18    0.000    0.000    0.227    0.013 peewee.py:6799(save)
+       18    0.000    0.000    0.000    0.000 peewee.py:7084(__init__)
+        9    0.000    0.000    0.000    0.000 peewee.py:722(clone)
+        9    0.000    0.000    0.000    0.000 peewee.py:732(inner)
+       18    0.000    0.000    0.000    0.000 peewee.py:7533(__init__)
+       18    0.000    0.000    0.000    0.000 peewee.py:7546(_set_table_alias)
+        9    0.000    0.000    0.000    0.000 peewee.py:7558(__init__)
+        9    0.000    0.000    0.000    0.000 peewee.py:7573(get_default_data)
+        9    0.000    0.000    0.000    0.000 peewee.py:827(apply_column)
+       36    0.000    0.000    0.000    0.000 peewee.py:849(__hash__)
+        9    0.000    0.000    1.369    0.152 socialnetwork_model.py:111(add_user_to_table)
+        9    0.000    0.000    0.000    0.000 users.py:15(__init__)
+        9    0.000    0.000    0.000    0.000 users.py:27(__init__)
+        9    0.000    0.000    1.369    0.152 users.py:30(add_user)
+      144    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x00007FFF1B4BCC60}
+       27    0.000    0.000    0.000    0.000 {built-in method _abc._abc_instancecheck}
+      2/1    0.000    0.000    0.000    0.000 {built-in method _abc._abc_subclasscheck}
+        3    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_decode}
+        1    0.000    0.000    0.000    0.000 {built-in method _csv.reader}
+        9    0.000    0.000    0.000    0.000 {built-in method _functools.reduce}
+        1    0.000    0.000    0.000    0.000 {built-in method _locale._getdefaultlocale}
+        9    0.009    0.001    0.009    0.001 {built-in method _sqlite3.connect}
+        1    0.000    0.000    1.370    1.370 {built-in method builtins.exec}
+       72    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+      207    0.000    0.000    0.000    0.000 {built-in method builtins.hash}
+     1046    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+       18    0.000    0.000    0.000    0.000 {built-in method builtins.issubclass}
+       18    0.000    0.000    0.000    0.000 {built-in method builtins.iter}
+      234    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+      137    0.000    0.000    0.001    0.000 {built-in method builtins.next}
+       36    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
+        1    0.000    0.000    0.000    0.000 {built-in method io.open}
+        1    0.000    0.000    0.000    0.000 {built-in method nt.fspath}
+        1    0.000    0.000    0.000    0.000 {built-in method nt.scandir}
+        1    0.000    0.000    0.000    0.000 {built-in method sys.audit}
+        1    0.000    0.000    0.000    0.000 {method '__exit__' of '_io._IOBase' objects}
+       18    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.RLock' objects}
+        1    0.000    0.000    0.000    0.000 {method '__exit__' of 'nt.ScandirIterator' objects}
+       36    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+      809    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        9    0.127    0.014    0.127    0.014 {method 'close' of 'sqlite3.Connection' objects}
+        9    1.005    0.112    1.005    0.112 {method 'commit' of 'sqlite3.Connection' objects}
+       63    0.000    0.000    0.000    0.000 {method 'copy' of 'dict' objects}
+       18    0.000    0.000    0.000    0.000 {method 'create_function' of 'sqlite3.Connection' objects}
+       27    0.000    0.000    0.000    0.000 {method 'cursor' of 'sqlite3.Connection' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+       10    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+       27    0.221    0.008    0.221    0.008 {method 'execute' of 'sqlite3.Cursor' objects}
+      432    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+       26    0.000    0.000    0.000    0.000 {method 'is_dir' of 'nt.DirEntry' objects}
+       45    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+      117    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+        9    0.000    0.000    0.000    0.000 {method 'keys' of 'dict' objects}
+       18    0.000    0.000    0.000    0.000 {method 'pop' of 'dict' objects}
+      126    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+       99    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+        5    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+       27    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+ *****Load status*****"
+
+8797 function calls (8399 primitive calls) in 4.463 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      126    0.000    0.000    0.000    0.000 <string>:1(<lambda>)
+        1    0.000    0.000    4.463    4.463 <string>:1(<module>)
+       27    0.000    0.000    0.000    0.000 __init__.py:1424(debug)
+       27    0.000    0.000    0.000    0.000 __init__.py:1689(isEnabledFor)
+        1    0.000    0.000    0.000    0.000 _bootlocale.py:11(getpreferredencoding)
+        2    0.000    0.000    0.000    0.000 _collections_abc.py:409(__subclasshook__)
+       27    0.000    0.000    0.000    0.000 abc.py:117(__instancecheck__)
+      2/1    0.000    0.000    0.000    0.000 abc.py:121(__subclasscheck__)
+        1    0.000    0.000    0.000    0.000 codecs.py:260(__init__)
+       45    0.000    0.000    0.000    0.000 contextlib.py:114(__enter__)
+       45    0.000    0.000    0.000    0.000 contextlib.py:123(__exit__)
+       45    0.000    0.000    0.000    0.000 contextlib.py:261(helper)
+       45    0.000    0.000    0.000    0.000 contextlib.py:86(__init__)
+        3    0.000    0.000    0.000    0.000 cp1252.py:22(decode)
+       10    0.000    0.000    0.000    0.000 csv.py:107(__next__)
+        1    0.000    0.000    0.000    0.000 csv.py:81(__init__)
+        1    0.000    0.000    0.000    0.000 csv.py:90(__iter__)
+       19    0.000    0.000    0.000    0.000 csv.py:93(fieldnames)
+       81    0.000    0.000    0.000    0.000 inspect.py:73(isclass)
+        1    0.000    0.000    0.000    0.000 main.py:29(get_file)
+        1    0.000    0.000    4.463    4.463 main.py:95(load_status_updates)
+        1    0.000    0.000    0.000    0.000 os.py:282(walk)
+        2    0.000    0.000    0.000    0.000 os.py:344(_walk)
+       27    0.000    0.000    0.000    0.000 peewee.py:1007(__sql__)
+        9    0.000    0.000    0.000    0.000 peewee.py:1201(__eq__)
+       54    0.000    0.000    0.000    0.000 peewee.py:1286(__init__)
+       54    0.000    0.000    0.001    0.000 peewee.py:1299(__sql__)
+       54    0.000    0.000    0.000    0.000 peewee.py:1419(__init__)
+       54    0.000    0.000    0.000    0.000 peewee.py:1431(__sql__)
+        9    0.000    0.000    0.000    0.000 peewee.py:1505(__init__)
+        9    0.000    0.000    0.001    0.000 peewee.py:1511(__sql__)
+       81    0.000    0.000    0.000    0.000 peewee.py:1553(__init__)
+       81    0.000    0.000    0.000    0.000 peewee.py:1554(<listcomp>)
+       81    0.000    0.000    0.000    0.000 peewee.py:1565(__sql__)
+       27    0.000    0.000    0.000    0.000 peewee.py:1570(__init__)
+       27    0.000    0.000    0.000    0.000 peewee.py:1574(__sql__)
+       54    0.000    0.000    0.000    0.000 peewee.py:1819(__init__)
+    54/27    0.000    0.000    0.001    0.000 peewee.py:1830(__sql__)
+       18    0.000    0.000    0.000    0.000 peewee.py:1842(CommaNodeList)
+       18    0.000    0.000    0.000    0.000 peewee.py:1846(EnclosedNodeList)
+       18    0.000    0.000    3.441    0.191 peewee.py:1966(inner)
+       18    0.000    0.000    0.000    0.000 peewee.py:1980(__init__)
+        9    0.000    0.000    0.000    0.000 peewee.py:1991(clone)
+       18    0.000    0.000    3.441    0.191 peewee.py:2041(execute)
+       18    0.000    0.000    0.000    0.000 peewee.py:2101(__init__)
+        9    0.000    0.000    0.000    0.000 peewee.py:2115(where)
+        9    0.000    0.000    0.000    0.000 peewee.py:2150(_apply_ordering)
+       18    0.000    0.000    0.000    0.000 peewee.py:2163(__sql__)
+       27    0.000    0.000    0.000    0.000 peewee.py:249(__getattr__)
+       18    0.000    0.000    0.000    0.000 peewee.py:2536(__init__)
+       18    0.000    0.000    0.000    0.000 peewee.py:2551(apply_returning)
+       18    0.000    0.000    3.441    0.191 peewee.py:2557(_execute)
+        9    0.000    0.000    0.000    0.000 peewee.py:2570(handle_result)
+       18    0.000    0.000    0.000    0.000 peewee.py:2578(__sql__)
+        9    0.000    0.000    0.000    0.000 peewee.py:2588(__init__)
+        9    0.000    0.000    0.002    0.000 peewee.py:2597(__sql__)
+        9    0.000    0.000    0.000    0.000 peewee.py:2643(__init__)
+        9    0.000    0.000    0.001    0.000 peewee.py:2672(_simple_insert)
+        9    0.000    0.000    0.001    0.000 peewee.py:2685(_generate_insert)
+       27    0.000    0.000    0.000    0.000 peewee.py:2718(<lambda>)
+        9    0.000    0.000    0.000    0.000 peewee.py:2751(<listcomp>)
+        9    0.000    0.000    0.002    0.000 peewee.py:2810(__sql__)
+        9    0.000    0.000    3.437    0.382 peewee.py:2843(_execute)
+        9    0.000    0.000    0.000    0.000 peewee.py:2852(handle_result)
+       54    0.000    0.000    0.000    0.000 peewee.py:3009(__enter__)
+       54    0.000    0.000    0.000    0.000 peewee.py:3010(__exit__)
+       18    0.000    0.000    0.000    0.000 peewee.py:3058(reset)
+        9    0.000    0.000    0.000    0.000 peewee.py:3064(set_connection)
+        9    0.000    0.000    0.009    0.001 peewee.py:3181(connect)
+        9    0.000    0.000    0.000    0.000 peewee.py:3199(_initialize_connection)
+        9    0.000    0.000    0.120    0.013 peewee.py:3205(close)
+        9    0.000    0.000    0.119    0.013 peewee.py:3222(_close)
+       27    0.000    0.000    0.000    0.000 peewee.py:3225(is_closed)
+       27    0.000    0.000    0.000    0.000 peewee.py:3236(cursor)
+       27    0.000    0.000    3.436    0.127 peewee.py:3246(execute_sql)
+       18    0.000    0.000    3.441    0.191 peewee.py:3255(execute)
+       18    0.000    0.000    0.000    0.000 peewee.py:3262(get_context_options)
+       18    0.000    0.000    0.000    0.000 peewee.py:3278(get_sql_context)
+        9    0.000    0.000    0.000    0.000 peewee.py:3366(in_transaction)
+        9    0.000    0.000    0.000    0.000 peewee.py:3369(push_transaction)
+        9    0.000    0.000    0.000    0.000 peewee.py:3372(pop_transaction)
+       18    0.000    0.000    0.000    0.000 peewee.py:3375(transaction_depth)
+        9    0.000    0.000    0.000    0.000 peewee.py:3388(transaction)
+        9    0.000    0.000    0.008    0.001 peewee.py:3534(_connect)
+        9    0.000    0.000    0.000    0.000 peewee.py:3546(_add_conn_hooks)
+        9    0.000    0.000    0.000    0.000 peewee.py:3618(_load_aggregates)
+        9    0.000    0.000    0.000    0.000 peewee.py:3622(_load_collations)
+        9    0.000    0.000    0.000    0.000 peewee.py:3626(_load_functions)
+        9    0.000    0.000    0.000    0.000 peewee.py:3631(_load_window_functions)
+        9    0.000    0.000    0.000    0.000 peewee.py:3755(last_insert_id)
+        9    0.000    0.000    0.000    0.000 peewee.py:3765(rows_affected)
+        9    0.000    0.000    0.000    0.000 peewee.py:3771(begin)
+        9    0.000    0.000    0.891    0.099 peewee.py:3775(commit)
+       81    0.000    0.000    0.000    0.000 peewee.py:385(quote)
+       81    0.000    0.000    0.000    0.000 peewee.py:390(<lambda>)
+        9    0.000    0.000    0.000    0.000 peewee.py:4398(__init__)
+        9    0.000    0.000    0.000    0.000 peewee.py:4410(_begin)
+        9    0.000    0.000    0.891    0.099 peewee.py:4414(commit)
+        9    0.000    0.000    0.000    0.000 peewee.py:4424(__enter__)
+        9    0.000    0.000    0.891    0.099 peewee.py:4430(__exit__)
+       27    0.000    0.000    0.000    0.000 peewee.py:4629(__get__)
+       18    0.000    0.000    0.000    0.000 peewee.py:4634(__set__)
+        9    0.000    0.000    0.000    0.000 peewee.py:4660(__set__)
+      162    0.000    0.000    0.000    0.000 peewee.py:4748(__hash__)
+       54    0.000    0.000    0.000    0.000 peewee.py:4765(column)
+       54    0.000    0.000    0.000    0.000 peewee.py:4772(db_value)
+       18    0.000    0.000    0.000    0.000 peewee.py:4778(to_value)
+       45    0.000    0.000    0.000    0.000 peewee.py:4781(get_sort_key)
+       54    0.000    0.000    0.001    0.000 peewee.py:4784(__sql__)
+       54    0.000    0.000    0.000    0.000 peewee.py:4924(adapt)
+       18    0.000    0.000    0.000    0.000 peewee.py:496(__init__)
+       36    0.000    0.000    0.000    0.000 peewee.py:503(mapping)
+        9    0.000    0.000    0.000    0.000 peewee.py:507(add)
+        9    0.000    0.000    0.000    0.000 peewee.py:513(get)
+        9    0.000    0.000    0.000    0.000 peewee.py:520(__getitem__)
+       18    0.000    0.000    0.000    0.000 peewee.py:523(__setitem__)
+       18    0.000    0.000    0.000    0.000 peewee.py:526(push)
+      126    0.000    0.000    0.000    0.000 peewee.py:539(__new__)
+      108    0.000    0.000    0.000    0.000 peewee.py:542(__call__)
+       18    0.000    0.000    0.000    0.000 peewee.py:5449(db_value)
+      225    0.000    0.000    0.000    0.000 peewee.py:556(__getattr__)
+       90    0.000    0.000    0.000    0.000 peewee.py:561(inner)
+       18    0.000    0.000    0.000    0.000 peewee.py:571(__init__)
+       18    0.000    0.000    0.000    0.000 peewee.py:581(column_sort_key)
+      198    0.000    0.000    0.000    0.000 peewee.py:584(scope)
+      216    0.000    0.000    0.000    0.000 peewee.py:588(parentheses)
+      108    0.000    0.000    0.001    0.000 peewee.py:596(__call__)
+      108    0.000    0.000    0.000    0.000 peewee.py:610(__enter__)
+      108    0.000    0.000    0.000    0.000 peewee.py:615(__exit__)
+       90    0.000    0.000    0.000    0.000 peewee.py:6183(table)
+   387/18    0.000    0.000    0.004    0.000 peewee.py:626(sql)
+        9    0.000    0.000    0.000    0.000 peewee.py:6308(get_default_dict)
+      369    0.000    0.000    0.000    0.000 peewee.py:634(literal)
+       54    0.000    0.000    0.000    0.000 peewee.py:638(value)
+        9    0.000    0.000    0.000    0.000 peewee.py:6525(__init__)
+       18    0.000    0.000    0.000    0.000 peewee.py:6554(_normalize_data)
+        9    0.000    0.000    0.000    0.000 peewee.py:6581(update)
+        9    0.000    0.000    0.000    0.000 peewee.py:6585(insert)
+        9    0.000    0.000    3.438    0.382 peewee.py:6617(create)
+       18    0.000    0.000    0.000    0.000 peewee.py:671(query)
+       27    0.000    0.000    0.000    0.000 peewee.py:6762(get_id)
+        9    0.000    0.000    0.000    0.000 peewee.py:6776(_pk_expr)
+       18    0.000    0.000    0.000    0.000 peewee.py:6788(_populate_unsaved_relations)
+       18    0.000    0.000    3.442    0.191 peewee.py:6799(save)
+       18    0.000    0.000    0.000    0.000 peewee.py:7084(__init__)
+        9    0.000    0.000    0.000    0.000 peewee.py:722(clone)
+        9    0.000    0.000    0.000    0.000 peewee.py:732(inner)
+       18    0.000    0.000    0.000    0.000 peewee.py:7533(__init__)
+       18    0.000    0.000    0.000    0.000 peewee.py:7546(_set_table_alias)
+        9    0.000    0.000    0.000    0.000 peewee.py:7558(__init__)
+        9    0.000    0.000    0.000    0.000 peewee.py:7573(get_default_data)
+        9    0.000    0.000    0.000    0.000 peewee.py:827(apply_column)
+       36    0.000    0.000    0.000    0.000 peewee.py:849(__hash__)
+        9    0.000    0.000    4.462    0.496 socialnetwork_model.py:254(add_st_to_table)
+        9    0.000    0.000    0.000    0.000 user_status.py:14(__init__)
+        9    0.000    0.000    0.000    0.000 user_status.py:24(__init__)
+        9    0.000    0.000    4.462    0.496 user_status.py:27(add_status)
+      135    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x00007FFF1B4BCC60}
+       27    0.000    0.000    0.000    0.000 {built-in method _abc._abc_instancecheck}
+      2/1    0.000    0.000    0.000    0.000 {built-in method _abc._abc_subclasscheck}
+        3    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_decode}
+        1    0.000    0.000    0.000    0.000 {built-in method _csv.reader}
+        9    0.000    0.000    0.000    0.000 {built-in method _functools.reduce}
+        1    0.000    0.000    0.000    0.000 {built-in method _locale._getdefaultlocale}
+        9    0.008    0.001    0.008    0.001 {built-in method _sqlite3.connect}
+        1    0.000    0.000    4.463    4.463 {built-in method builtins.exec}
+       72    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+      162    0.000    0.000    0.000    0.000 {built-in method builtins.hash}
+      857    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+       18    0.000    0.000    0.000    0.000 {built-in method builtins.issubclass}
+       18    0.000    0.000    0.000    0.000 {built-in method builtins.iter}
+      207    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+      137    0.000    0.000    0.001    0.000 {built-in method builtins.next}
+       27    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
+       18    0.000    0.000    0.000    0.000 {built-in method builtins.sorted}
+        1    0.000    0.000    0.000    0.000 {built-in method io.open}
+        1    0.000    0.000    0.000    0.000 {built-in method nt.fspath}
+        1    0.000    0.000    0.000    0.000 {built-in method nt.scandir}
+        1    0.000    0.000    0.000    0.000 {built-in method sys.audit}
+        1    0.000    0.000    0.000    0.000 {method '__exit__' of '_io._IOBase' objects}
+       18    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.RLock' objects}
+        1    0.000    0.000    0.000    0.000 {method '__exit__' of 'nt.ScandirIterator' objects}
+       36    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+      665    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+        9    0.119    0.013    0.119    0.013 {method 'close' of 'sqlite3.Connection' objects}
+        9    0.891    0.099    0.891    0.099 {method 'commit' of 'sqlite3.Connection' objects}
+       63    0.000    0.000    0.000    0.000 {method 'copy' of 'dict' objects}
+       18    0.000    0.000    0.000    0.000 {method 'create_function' of 'sqlite3.Connection' objects}
+       27    0.000    0.000    0.000    0.000 {method 'cursor' of 'sqlite3.Connection' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        9    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+       27    3.436    0.127    3.436    0.127 {method 'execute' of 'sqlite3.Cursor' objects}
+      378    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+       26    0.000    0.000    0.000    0.000 {method 'is_dir' of 'nt.DirEntry' objects}
+       45    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+       99    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+        9    0.000    0.000    0.000    0.000 {method 'keys' of 'dict' objects}
+       18    0.000    0.000    0.000    0.000 {method 'pop' of 'dict' objects}
+      117    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+       81    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+       27    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+        9    0.000    0.000    0.000    0.000 {method 'values' of 'dict' objects}

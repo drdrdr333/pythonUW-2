@@ -1,0 +1,56 @@
+
+print('load users into Mongo DB from csv')
+menu.load_users()
+ 
+ time taken: 4.1772922
+print('load status into Mongo DB from csv')
+menu.load_status_updates()
+ 
+ time taken: 5.205006200000001
+print('update user Mongo')
+menu.update_user()
+ 
+ time taken: 18.2834721
+print('search user Mongo')
+menu.search_user()
+ 
+ time taken: 7.871080900000003
+print('delete user Mongo')
+menu.delete_user()
+ 
+ time taken: 8.333582700000001
+
+***** FUNCTION CALLED*****
+ call: 
+print('load users into Sqlite DB from csv')
+menu.load_users()
+ 
+ time taken: 8.5294223
+
+***** FUNCTION CALLED*****
+ call: 
+print('load status into Sqlite DB from csv')
+menu.load_status_updates()
+ 
+ time taken: 5.221447099999999
+
+***** FUNCTION CALLED*****
+ call: 
+print('update user Sqlite')
+menu.update_user()
+ 
+ time taken: 25.435846299999998
+
+***** FUNCTION CALLED*****
+ call: 
+print('search user Sqlite')
+menu.search_user()
+ 
+ time taken: 6.402519000000005
+
+***** FUNCTION CALLED*****
+ call: 
+print('delete user Sqlite')
+menu.delete_user()
+ 
+ time taken: 7.689437599999998
