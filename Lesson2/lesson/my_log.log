@@ -1,0 +1,4 @@
+2023-09-28 12:18:45,240 simple.py:18   WARNING Value of i is 50
+2023-09-28 12:18:45,240 simple.py:22   ERROR Tried to divide by zero. Var was 50
+2023-09-28 12:29:06,743 simple.py:72   WARNING Value of i is 50
+2023-09-28 12:29:06,743 simple.py:76   ERROR Tried to divide by zero. Var was 50
